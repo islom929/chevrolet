@@ -1,0 +1,45 @@
+.link-cars__list {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 112px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-cars__item {
+  width: 20%;
+}
+
+.link-cars__link {
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .link-cars__img-box {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+    border: 2px solid #CCC;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  span {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #666;
+  }
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body class="body" id="home">
+
+<header class="header">
+<div class="header__container container-css">
+  <nav class="header-nav nav">
+    <div class="nav__box">
+
+      <a href="home.html" class="nav__logo-link">
+        <img src="img/site-logo.png" alt="site logo" class="nav__logo-img" width="119" height="57">
+      </a>
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <button id="nav-model" class="nav__dropdown-btn">Модельный ряд</button>
+        </li>
+        <li class="nav__item">
+          <button id="nav-customer" class="nav__dropdown-btn">Покупательям</button>
+        </li>
+        <li class="nav__item">
+          <button id="nav-owner" class="nav__dropdown-btn">Владельцам</button>
+        </li>
+        <li class="nav__item">
+          <button id="nav-chevrolet-uz" class="nav__dropdown-btn">Chevrolet Узбекистан</button>
+        </li>
+      </ul>
+
+      <form class="nav__form">
+        <input type="text" class="nav__search">
+        <button class="nav__search-btn" type="submit"></button>
+      </form>
+      <button class="nav__language">
+        <span>Рус</span>
+      </button>
+    </div>
+  </nav>
+  <div class="header-modal d-none">
+    <div class="header__box">
+      <div class="model-modal">
+        <ul class="model-modal__list-btn">
+            <li class="model-modal__item-btn">
+                <button class="model-modal__btn">Внедорожники</button>
+            </li>
+            <li class="model-modal__item-btn">
+                <button class="model-modal__btn model-modal__btn--active">Седаны</button>
+            </li>
+            <li class="model-modal__item-btn">
+                <button class="model-modal__btn">Кроссоверы</button>
+            </li>
+            <li class="model-modal__item-btn">
+                <button class="model-modal__btn">Комерческие</button>
+            </li>
+        </ul>
+        <div class="model-modal__box">
+          <div class="model-slider">
+            <ul class="model-slider__list">
+              <button class="model-slider__btn model-slider__left-btn"></button>
+              <button class="model-slider__btn model-slider__right-btn"></button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+<main class="main">
+<section class="main-bg">
+  <div class="main-bg__box">
+    <div class="main-bg__controller container-css">
+      <div class="main-bg__conroller-box">
+        <h2 class="main-bg__title"><span>Chevrolet</span>Tracker</h2>
+        <p class="main-bg__info">Яркий Off-Road для жизни Offline</p>
+        <ul class="main-bg__list">
+          <li class="main-bg__item">
+            <button class="main-bg__btn"></button>
+          </li>
+          <li class="main-bg__item">
+            <button class="main-bg__btn main-bg__btn--active"></button>
+          </li>
+          <li class="main-bg__item">
+            <button class="main-bg__btn"></button>
+          </li>
+          <li class="main-bg__item">
+            <button class="main-bg__btn"></button>
+          </li>
+          <li class="main-bg__item">
+            <button class="main-bg__btn"></button>
+          </li>
+        </ul>
+        <div class="main-bg__btn-box">
+          <button class="main-bg__controller-btn main-bg__left-btn">
+          </button>
+          <button class="main-bg__controller-btn main-bg__right-btn">
+          </button>
+        </div>
+      </div>
+  </div>
+
+  <div class="main-bg__blur-box"></div>
+    <img class="main-bg__img" src="img/img-bg-tracker.png" alt="">
+  </div>
+</section>
+
+<section class="link-cars">
+  <h2 class="visually-hidden">Test</h2>
+  <div class="link-cars__container container-css">
+    <ul class="link-cars__list">
+      <li class="link-cars__item">
+        <a href="#" class="link-cars__link">
+          <div class="link-cars__img-box">
+            <img src="img/icon-configuration.svg" alt="img of configuration">
+          </div>
+          <span>Конфигуратор</span>
+        </a>
+      </li>
+      <li class="link-cars__item">
+        <a href="#" class="link-cars__link">
+          <div class="link-cars__img-box">
+            <img src="img/icon-search-diler.svg" alt="img of diler">
+          </div>
+          <span>Найти дилера</span>
+        </a>
+      </li>
+      <li class="link-cars__item">
+        <a href="#" class="link-cars__link">
+          <div class="link-cars__img-box">
+            <img src="img/icon-consultation.svg" alt="img of consultation">
+          </div>
+          <span>Получить консултацию</span>
+        </a>
+      </li>
+      <li class="link-cars__item">
+        <a href="#" class="link-cars__link">
+          <div class="link-cars__img-box">
+            <img src="img/icon-test-drive.svg" alt="img of test drive">
+          </div>
+          <span>Записаться на тест драйв</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="model">
+  <div class="model__container container-css">
+    <h2 class="model__title">Модельный ряд</h2>
+    <ul class="model__list">
+      <li class="model__item">
+        <div class="model__box model-item">
+          <img src="img/onix-left.png" alt="img of onix" class="model-item__img">
+          <div class="model-item__box">
+            <h3 class="model-item__title">Chevrolet Onix</h3>
+            <p class="model-item__price">От <span>122 000 000</span> сум</p>
+            <div class="model-item__bottom-box">
+              <span class="model-item__engine">1.5 Л</span>
+              <span class="model-item__transmitter">МКПП/АКПП</span>
+              <a href="#" class="model-item__link">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="model__item">
+        <div class="model__box model-item">
+          <img src="img/tracker-left.png" alt="img of tracker" class="model-item__img">
+          <div class="model-item__box">
+            <h3 class="model-item__title">Chevrolet Tracker</h3>
+            <p class="model-item__price">От <span>238 000 000</span> сум</p>
+            <div class="model-item__bottom-box">
+              <span class="model-item__engine">1.5 Л</span>
+              <span class="model-item__transmitter">МКПП/АКПП</span>
+              <a href="#" class="model-item__link">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="model__item">
+        <div class="model__box model-item">
+          <img src="img/trailblazer-left.png" alt="img of trailblazer" class="model-item__img">
+          <div class="model-item__box">
+            <h3 class="model-item__title">Chevrolet Trailblazer</h3>
+            <p class="model-item__price">От <span>398 000 000</span> сум</p>
+            <div class="model-item__bottom-box">
+              <span class="model-item__engine">1.5 Л</span>
+              <span class="model-item__transmitter">МКПП/АКПП</span>
+              <a href="#" class="model-item__link">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="service-online">
+  <div class="service-online__container container-css">
+    <div class="service-online__left">
+      <img src="img/img-service-online-shop.jpg" alt="img of service online shopping" class="service-online__img">
+    </div>
+    <div class="service-online__right">
+      <h2 class="service-online__title">
+        Сервис онлайн-покупки
+        Chevrolet.
+      </h2>
+      <p class="service-online__text">
+        Chevrolet открывает не только новые пути, но и новые онлайн-возможности. Теперь вы можете выбрать свой Chevrolet и стать его владельцем вне зависимости от того, где находитесь, — на сайте представлены все предложения официальных дилеров Chevrolet, а персональный менеджер всегда будет на связи для сопровождения онлайн-сделки.
+      </p>
+      <a href="#" class="service-online__link">Купить онлайн</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-video">
+  <video controls autoplay>
+    <source src="media/home-video.mp4" type="video/mp4">
+    <source src="media/home-video.mp4" type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+</section>
+
+<section class="info">
+  <div class="info__container container-css">
+    <ul class="info__list">
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-finance.jpg" alt="img of finance" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Chevrolet Finance</h3>
+            <p class="info-item__text">Особые финансовые условия для тех, кто открывает новые пути.</p>
+          </div>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-help-road.jpg" alt="img of help" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Помошь на дороге</h3>
+            <p class="info-item__text">Бессплатная помошь при возникновении неисправности.</p>
+          </div>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-leasing.jpg" alt="img of leasing" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Лизинг для физических лиц</h3>
+            <p class="info-item__text">Воспользуйтесь преимушествами лизинга Chevrolet</p>
+          </div>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-sale-spare-parts.jpg" alt="img of sale for spare parts" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Скидки на запасные части</h3>
+            <p class="info-item__text">Выгодные предложения для владельцев.</p>
+          </div>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-online-registration-service.jpg" alt="img of online registration" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Онлайн запись на сервис</h3>
+            <p class="info-item__text">Запишитесь на любой тип ремонта</p>
+          </div>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="info-item__box">
+          <img src="img/img-home-spare-acdelco.jpg" alt="img of spare of acdelco" class="info-item__img">
+          <div class="info-item__bottom-box">
+            <h3 class="info-item__title">Запасные части ACDelco</h3>
+            <p class="info-item__text">Высокие стандарты качества и выгодные условия.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+  <script src="js/info.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

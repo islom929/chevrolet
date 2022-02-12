@@ -1,0 +1,72 @@
+.app__box {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+}
+
+.app__left {
+  width: 42%;
+}
+
+.app__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  color: #000;
+}
+
+.app__text {
+  margin: 45px 0 30px 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+
+.app__link-box {
+  display: flex;
+  align-items: center;
+}
+
+.app__link {
+  text-decoration: none !important;
+  width: 210px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  padding: 12px 15px 12px 65px;
+  background-color: #EEB333;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-image: url('../../img/icon-play-market.svg');
+  background-repeat: no-repeat;
+  background-position: center left 15px;
+  background-size: 40px;
+
+  span {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+.app__app-store {
+  background-image: url('../../img/icon-app-store.svg');
+  background-size: 33px;
+}
+
+.app__right {
+  width: 55%;
+}
+
+.app__img {
+  width: 100%;
+  object-fit: contain;
+}

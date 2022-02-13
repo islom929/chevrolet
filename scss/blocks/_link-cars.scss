@@ -30,6 +30,15 @@
     img {
       width: 120px;
       height: 120px;
+      opacity: 0.5;
+    }
+
+    &:hover {
+      border: 2px solid #777;
+
+      img {
+        opacity: 0.77;
+      }
     }
   }
 
